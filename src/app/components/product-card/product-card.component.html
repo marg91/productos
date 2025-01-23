@@ -1,0 +1,25 @@
+<section class="container d-xl-inline-block" >
+
+<div class="card" class="col-md-8 mb-4">
+    <div class="card h-100">
+  <h6 class="card-header"><strong>{{ product.name }}</strong></h6>
+  <img class="card-img-top img-fluid" src="{{ product.image }}" [alt]="product.name">
+    <div class="card-body mt-3">
+    <p class="card-text">{{ product.description }}</p>
+    <p><strong>Precio: {{ product.price }}€</strong></p>
+    <p>Categoría: {{ product.category }}</p>
+       @if (product.active) {
+       <p>Producto Activo</p>
+       }
+       @else {
+       <p>Producto Inactivo</p>
+       }
+<div class="mt-center">
+<button (click)="eliminar()" class="btn btn-debug">Eliminar</button>
+</div>
+</div>
+    
+
+
+
+

@@ -1,0 +1,27 @@
+header{
+    background-color: rgb(224, 252, 252);
+    font-family:cursive;
+    height: 300px;
+}
+section{
+    background-color: rgb(236, 247, 253);
+    margin-top: 10px;
+  
+}
+.carousel-item img {
+    object-fit: cover; 
+    width: 100%; 
+    height: 300px; 
+  }
+  .carousel-caption {
+    background-color: rgba(92, 88, 90, 0.6); 
+    border-radius:8px; 
+    padding: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+  }
+
+
+
+  
+

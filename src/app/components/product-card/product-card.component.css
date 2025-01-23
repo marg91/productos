@@ -1,0 +1,29 @@
+button{
+    background-color: rgb(89, 148, 148);
+}
+.card{
+   
+    height: 1px;
+
+}
+.card {
+    height: 500px; 
+    max-width: 300px; 
+    display: flex; 
+    flex-direction: column; 
+    background-color: rgb(234, 243, 243);
+    text-align: center;
+  }
+  
+  .card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+  }
+  
+  .card-body {
+    flex-grow: 1;
+  }
+  
+  .mt-auto {
+    margin-top: auto; 
+  }

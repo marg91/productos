@@ -1,0 +1,31 @@
+legend{
+    color: rgb(12, 89, 98);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form{
+    background-color: rgb(188, 205, 202);
+    border-radius: 20px;
+}button{
+    color: azure;
+}
+
+input.ng-valid.ng-touched{
+    border-bottom: 2px solid rgb(122, 213, 204);
+}
+input.ng-invalid.ng-touched{
+    border-bottom: 2px solid rgb(247, 149, 149);
+}
+.error{
+    color: rgb(216, 114, 96);
+    font-size: 70%;
+    margin: 0px, 0px, 0px, 5px;
+}
+.alerta{
+    color: rgb(66, 88, 88);
+    font-size: 70%;
+    margin: 0px, 0px, 0px, 5px;
+}
+
+input[type="number"] {
+    appearance: textfield; 
+  }
